@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 90vh;
+  background-color: #d5e1ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+main {
+  border: 1px solid transparent;
+  width: 18.75rem;
+  border-radius: 20px;
+  padding: 0.675rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 1px 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code {
+  width: 100%;
+}
+
+.improve {
+  font: 700 1.3rem "Roboto", monospace;
+  margin: 1rem 1rem;
+  text-align: center;
+}
+
+.scan {
+  font: 0.875rem "Roboto";
+  color: #8d8d9f;
+  text-align: center;
+  margin: 0 1rem 2rem 1rem;
+}
