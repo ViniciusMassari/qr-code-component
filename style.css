@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+:root {
+  --secondary-font-color: #8d8d9f;
+  --components-background: #fff;
+  --body-background: #d5e1ef;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +13,7 @@
 
 body {
   min-height: 90vh;
-  background-color: #d5e1ef;
+  background-color: var(--body-background);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +30,7 @@ main {
   border-radius: 20px;
   padding: 0.675rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0 1px 10px;
-  background-color: #fff;
+  background-color: var(--components-background);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,8 +48,8 @@ main {
 }
 
 .scan {
-  font: 0.875rem "Roboto";
-  color: #8d8d9f;
+  font: 0.875rem "Roboto", monospace;
+  color: var(--secondary-font-color);
   text-align: center;
   margin: 0 1rem 2rem 1rem;
 }
